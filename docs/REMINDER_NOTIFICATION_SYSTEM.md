@@ -20,12 +20,42 @@ Provide timely alerts for farm operations and prevent missed activities.
 - Low soil moisture alert (future sensor integration)
 - Water management notifications
 
-### Inventory Alerts
+## Smart Irrigation Notification Logic
+Irrigation notifications should not depend only on fixed schedules.
+
+System considers:
+- Previous irrigation history
+- Previous irrigation duration and water quantity
+- Weather forecast
+- Rain probability
+- Temperature conditions
+- Soil moisture/tensiometer data (future integration)
+- Crop age and growth stage
+
+Based on data, system can:
+- Suggest irrigation date
+- Delay irrigation after sufficient rainfall
+- Increase alert priority during hot/dry conditions
+- Reduce unnecessary watering notifications
+
+## Irrigation Schedule Management
+Users can:
+- Add irrigation schedule
+- Edit schedule
+- Delete schedule
+- Pause schedule
+- Change frequency
+- Update water quantity
+- Update timing
+
+System records all changes in irrigation history.
+
+## Inventory Alerts
 - Low stock warning
 - Product expiry reminder
 - Purchase reminder
 
-### Plant Health Alerts
+## Plant Health Alerts
 - Disease observation reminder
 - Pest monitoring reminder
 - Follow-up activity reminder
@@ -59,6 +89,7 @@ Examples:
 - Irrigation module
 - Inventory module
 - Disease/Pest database
+- Weather integration
 
 ## CRUD Support
 - Add reminder
