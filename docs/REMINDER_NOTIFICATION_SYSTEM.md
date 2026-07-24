@@ -37,6 +37,22 @@ Provide timely alerts for farm operations and prevent missed activities.
 - Completed/pending status
 - User notes
 
+## Notification Control Settings
+Users can control notifications individually:
+
+- Enable notification ON/OFF for each reminder type
+- Silent notification mode
+- Custom notification sound option
+- Vibration ON/OFF option
+- Choose priority level
+- Temporary mute option
+- Quiet hours schedule
+
+Examples:
+- Keep disease alerts ON
+- Keep low stock alerts silent
+- Turn off completed task reminders
+
 ## Connections
 - Spray module
 - Fertigation module
@@ -50,6 +66,7 @@ Provide timely alerts for farm operations and prevent missed activities.
 - Delete reminder
 - Search and filter
 - Mark completed
+- Update notification preferences
 
 ## Future Ready
 Supports weather-based alerts, AI recommendations and automated farm scheduling.
