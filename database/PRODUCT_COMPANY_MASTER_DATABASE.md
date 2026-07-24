@@ -14,6 +14,9 @@ Fields:
 - Recommended use
 - Dose information
 - Unit
+- Product cost
+- Purchase price history
+- Selling/reference price (optional)
 - Notes
 - Product image
 
@@ -40,7 +43,7 @@ Supports:
 
 Spray:
 - Select product
-- Auto fill company and details
+- Auto fill company, dose and cost details
 - Save application history
 
 Inventory:
@@ -50,10 +53,12 @@ Inventory:
 
 Expense:
 - Product cost linked automatically
+- Calculate application cost based on quantity used
 
 Reports:
 - Product usage analysis
 - Company-wise consumption
+- Cost analysis
 
 ## CRUD Support
 All products and companies support:
