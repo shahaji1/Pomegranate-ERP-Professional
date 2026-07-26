@@ -26,3 +26,28 @@ Digital management system for export-quality pomegranate farming with complete r
 
 ## Development
 Phase 1: Foundation setup started.
+
+## GitHub-First Workflow
+
+Development is maintained through incremental commits.
+
+Each milestone will include:
+- Source files
+- Architecture updates
+- Feature implementation
+- Documentation
+
+Project structure will be built module by module:
+
+1. Android Foundation
+2. Farm Management
+3. Plot Management
+4. Plant Tracking
+5. Irrigation
+6. Fertigation
+7. Spray Management
+8. Disease Management
+9. Inventory
+10. Harvest
+11. Finance
+12. Analytics
